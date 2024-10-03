@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Matching Tool</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <style>
+        body {
+            padding: 20px;
+        }
+        .ui.container {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ui container">
+        <h2 class="ui header">Resume Matching Tool</h2>
+        <form id="upload-form" class="ui form">
+            <div class="field">
+                <label for="resume">Upload Resume (PDF)</label>
+                <input type="file" id="resume" accept="application/pdf" required>
+            </div>
+            <div class="field">
+                <label for="job_description">Upload Job Description (Text File)</label>
+                <input type="file" id="job_description" accept="text/plain" required>
+            </div>
+            <button type="submit" class="ui button primary">Submit</button>
+        </form>
+        <div id="result" class="ui message" style="display:none;"></div>
+    </div>
+    <script>
+        document.getElementById("upload-form").addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const resumeFile = document.getElementById("resume").files[0];
+            const jobDescriptionFile = document.getElementById("job_description").files[0];
+
+            if (!resumeFile || !jobDescriptionFile) {
+                alert("Please provide both files.");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("resume", resumeFile);
+            formData.append("job_description", jobDescriptionFile);
+
+            try {
+                const response = await fetch("/score", {
+                    method: "POST",
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    throw new Error("Error submitting form: " + response.statusText);
+                }
+
+                const result = await response.json();
+                document.getElementById("result").style.display = "block";
+                document.getElementById("result").classList.remove("error");
+                document.getElementById("result").classList.add("positive");
+
+                let resultContent = `Match Score: ${result.match_score}<br>`;
+                if (result.suggestions && result.suggestions.length > 0) {
+                    resultContent += "<strong>Suggestions to Improve:</strong><ul>";
+                    result.suggestions.forEach(suggestion => {
+                        resultContent += `<li>${suggestion}</li>`;
+                    });
+                    resultContent += "</ul>";
+                }
+
+                document.getElementById("result").innerHTML = resultContent;
+
+            } catch (error) {
+                document.getElementById("result").style.display = "block";
+                document.getElementById("result").classList.remove("positive");
+                document.getElementById("result").classList.add("error");
+                document.getElementById("result").innerText = error.message;
+            }
+        });
+    </script>
+</body>
+</html>
