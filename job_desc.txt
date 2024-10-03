@@ -1,0 +1,40 @@
+About the job
+At Compass, our mission is to help everyone find their place in the world. Founded in 2012, we’re revolutionizing the real estate industry with our end-to-end platform that empowers residential real estate agents to deliver exceptional service to seller and buyer clients.
+
+On the Compass Innovation Lab team, we are building cutting edge AI driven products aimed at integrating Artificial Intelligence into everyday real estate workflows on the Compass platform. As we continue to build and improve this platform, we will work closely with our agents to understand how we can shape our tools to provide the most value to their business.
+
+Working in the Compass Innovation Lab team will give you the opportunity to develop products leveraging exciting new AI technologies, and the platform that powers those products. Your work will make an immediate transformational impact on our agents' day to day lives. You will be a full stack TypeScript engineer tasked with architecting, developing, and maintaining frontend UIs and Node APIs powered by third party generative AI providers. An interest in generative AI is required, but prior experience is not.
+
+What You Will Do
+
+Work in an agile, startup-like environment building products and services
+Build and maintain frontend UIs and backend APIs on a high-quality TypeScript codebase
+Participate in daily team meetings, and be part of an on-call rotation for your team’s products
+Independently define, decompose, and lead delivery of complex projects 
+Perform code reviews, design reviews, and write high quality tests
+Become the subject matter expert for one or more services in your domain
+Create clear and concise documentation (diagrams, service descriptions, decisions, runbooks)
+Own and operationally improve the architecture and implementation of services and applications in your domain throughout their lifecycle
+Identify and remove bottlenecks to address inefficiencies in the developer experience
+Provide technical leadership within your team.
+
+What We Look For
+
+BS in CS or equivalent practical experience
+8+ years of software engineering experience with HTML, CSS, and Javascript, both on the client and server. While not required, experience with TypeScript and React is highly desirable.
+Experience with relational databases and SQL
+Experience with git for version control 
+Experience building tools that leverage third party API integrations
+Prior experience working with generative AI tools or projects is not required, but is nice to have.
+Experience with Scrum/Agile development methodologies
+Excellent verbal and written communication skills
+
+Compensation: The base pay range for this position is $131,000-$197,000 annually; however, base pay offered may vary depending on job-related knowledge, skills, and experience. Bonuses and restricted stock units may be provided as part of the compensation package, in addition to a full range of benefits. Base pay is based on market location. Minimum wage for the position will always be met.
+
+Perks That You Need To Know About
+
+Participation in our incentive programs (which may include where eligible cash, equity, or commissions). Plus paid vacation, holidays, sick time, parental leave, marriage leave, and recharge leave; medical, tele-health, dental and vision benefits; 401(k) plan; flexible spending accounts (FSAs); commuter program; life and disability insurance; Maven (a support system for new parents); Carrot (fertility benefits); UrbanSitter (caregiver referral network); Employee Assistance Program; and pet insurance.
+
+Do your best work, be your authentic self.
+
+At Compass, we believe that everyone deserves to find their place in the world — a place where they feel like they belong, where they can be their authentic selves, where they can thrive. Our collaborative, energetic culture is grounded in our Compass Entrepreneurship Principles and our commitment to diversity, equity, inclusion, growth and mobility. As an equal opportunity employer, we offer competitive compensation packages, robust benefits and professional growth opportunities aimed at helping to improve our employees' lives and careers.
