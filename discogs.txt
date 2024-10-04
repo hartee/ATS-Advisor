@@ -1,0 +1,66 @@
+Description
+What drives you? Working on something you believe in? At Discogs, we believe in sharing music with the world. Our technical teams build a product that opens the doors to discovery for millions of music lovers. The Senior Full Stack Software Engineer for the Engineering Foundation team will be responsible for designing and building modern domain-driven, observable microservices and web applications hosted in the cloud (AWS) using Python and JavaScript leveraging technologies such as React, Kafka, Docker, Kubernetes and GraphQL.
+Location
+This is a remote position. Open to candidates located in OR, WA, CA, CO, TX, IL
+Compensation
+Starting Base Salary: $125,000 - $132,000 yearly
+Who We Are
+Discogs is the largest crowd-sourced, community-driven database of recorded music information in the world. Every day, millions of people use the Discogs Marketplace to connect, learn about music, and buy and sell vinyl records, CDs, and cassettes. As Discogs continues to grow, we are looking for bright, dedicated, creative, and highly motivated people to help us realize our mission to serve the music fan in everyone. We are relatively small, so individual contributions can have a large impact. High value is placed on quality, critical thinking, and continuous improvement. Our teams work collaboratively but are distributed geographically and open-source tools are important to who we are and how we work. We value the experiences and skills each team member contributes to helping us serve our music community.
+Who We’re Looking For
+We are looking for an experienced Senior Full Stack Software Engineer with a strong background in modern web application and API development, microservices, cloud native design patterns, and public facing systems. The Senior Full Stack Engineer has a great ability to multi-task across projects as well as to adapt to different areas of the code where they may not have previous experience. The Senior Full Stack Engineer will be comfortable with both front and back end engineering, possessing strong troubleshooting skills. This role will mentor and assist junior engineers, motivating and fostering collaboration across teams. This position will report directly to the Operations Engineering Manager.
+What You’ll Accomplish
+	•	Develop and maintain front end and back end software following an Agile methodology.
+	•	Design, build, optimize, and maintain internal and third-party software solutions for our internal teams including Finance, Compliance, Community Support, and HR
+	•	Communicate effectively with technical and non-technical stakeholders and deliver feedback to peers and team leads.
+	•	Assist engineering and product teams with estimation of development efforts.
+	•	Take responsibility over large, complex features from concept to design to delivery.
+	•	Act as a resource and mentor for less experienced team members, pair or mob-programming with them when necessary.
+	•	Assist engineering team with code reviews.
+	•	Build and maintain unit and end-to-end tests to ensure software quality.
+	•	Implement observability best practices for the application the team
+	•	Ownership of end to end solutions while collaborating within a squad
+Requirements
+What You’ll Contribute
+Minimum Experience and Education
+	•	Fluency in at least one server-side language, Python preferred.
+	•	Thorough understanding of HTTP APIs.
+	•	5+ years of software engineering experience.
+	•	3+ years experience building and maintaining web applications in the cloud, crafting scalable, highly available and eventually consistent distributed systems.
+	•	3+ years experience in containerization technologies (Docker, Kubernetes).
+	•	Experience deploying and scaling cloud architecture, AWS preferred.
+	•	Excellent troubleshooting and analytical skills.
+	•	Experience working with production systems under load.
+	•	Experience with DevOps and implementing CI/CD pipelines, Github Actions preferred.
+	•	Strong understanding of JavaScript fundamentals.
+	•	Extensive experience building reusable components for web applications using modern JavaScript libraries and frameworks, React experience preferred.
+	•	Strong understanding of SDLC processes such as version control, build and configuration management, automated deployments, automated testing, etc.
+	•	Good verbal and written communication skills.
+	•	Experience with software design patterns and a proven track record of building maintainable software.
+	•	Bachelor's degree (BA/BS) from four-year college or university in math\computer science related field, or equivalent work experience.
+Preferred Experience
+	•	Experience working within Agile/Scrum/Kanban teams.
+	•	Experience with SQL and NoSQL data structures.
+	•	Experience working with identity providers.
+	•	Experience with APM technologies such as Datadog, New Relic, or Honeycomb.
+	•	Experience and working knowledge of event/message streaming technologies such as Kafka.
+	•	Experience with implementing caching services such as Redis or Memcached.
+	•	Experience working in an eCommerce environment.
+	•	Experience with GraphQL.
+	•	Experience with Auth0.
+Benefits
+What We Provide
+	•	Competitive compensation: salary, plus performance-related bonus program
+	•	401(k) with employer match
+	•	100% company-paid medical and dental insurance benefits for you and your dependents
+	•	4 weeks paid vacation, increasing based on tenure
+	•	18 weeks paid leave for birth moms
+	•	8 weeks paid parental leave, including for adoption
+	•	Monthly wellness allowance
+	•	Annual professional and personal development allowance
+	•	Work from home office set-up and expense allowances
+	•	Flexible work location opportunities
+	•	Employer matching toward charitable contributions
+
+What We Believe In
+Discogs’ mission is to serve the music fan in everyone. We represent a diverse and inclusive community, and we are committed to serving our community with innovative and creative solutions. We know that innovation happens best when varying perspectives are embraced and integrated. Our global team reflects our global community.
+
